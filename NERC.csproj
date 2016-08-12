@@ -69,6 +69,10 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Objects\Device.cs" />
+    <Compile Include="Objects\Equipment.cs" />
+    <Compile Include="Objects\Devices\Relay.cs" />
+    <Compile Include="Objects\Substation.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
