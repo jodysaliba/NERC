@@ -10,7 +10,8 @@ namespace NERC.Objects.Devices
     class Relay : Equipment
     {
         public string SerialNumber { get; set; }
-        
+        public int Status { get; set; }
+        public List<Test> Tests { get; set; }
 
         Relay()
         {
